@@ -52,3 +52,9 @@ export default tseslint.config({
   },
 })
 ```
+
+## Toast notifications
+
+This project uses the [sonner](https://github.com/emilkowalski/sonner) toast library.
+Render the `<Toaster />` component in `src/app/layout.tsx` and call `const { toast } = useToast();`
+from `@/components/ui/use-toast` to display messages.
